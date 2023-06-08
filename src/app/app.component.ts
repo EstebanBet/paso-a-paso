@@ -60,7 +60,9 @@ export class AppComponent implements OnInit {
   marcarPasoEnProgreso(){
    let urlActual = this.location.path();
    let indexPasoActual = this.pasos.findIndex((paso:Pasos)=> urlActual.includes(paso.url));
-   this.pasos[indexPasoActual].estado = 'progreso';
+   if(this.pasos){
+     this.pasos[indexPasoActual].estado = 'progreso';
+   }
    this.validarPasosAnteriores(indexPasoActual);
    this.actualizarStorage(this.pasos);
   }
