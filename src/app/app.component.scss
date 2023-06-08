@@ -1,0 +1,41 @@
+
+.active-initial {
+  fill: #02b1ff;
+  border-bottom: 2px solid #02b1ff;
+}
+
+.icon-success {
+  display: none;
+}
+
+.title-step-container {
+  margin-left: 4px;
+  strong {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+
+  small {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+  }
+}
+
+.active-initial{
+  transition: background-color 0.4s ease;
+}
+
+.active-initial:hover {
+  background-color: #c0f3ff;
+  border-bottom: 2px solid #02b1ff;
+
+  .icon-success-fill {
+    display: none;
+  }
+
+  .icon-success {
+    display: unset;
+  }
+}

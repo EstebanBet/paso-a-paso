@@ -1,0 +1,32 @@
+{
+  "pasos": [
+    {
+      "id": 1,
+      "titulo": "Paso 1",
+      "subtitulo":"subtitulo paso",
+      "url": "paso-1",
+      "estado": "default"
+    },
+    {
+      "id": 2,
+      "titulo": "Paso 2",
+      "subtitulo":"subtitulo paso",
+      "url": "paso-2",
+      "estado": "default"
+    },
+    {
+      "id": 3,
+      "titulo": "Paso 3",
+      "subtitulo":"subtitulo paso",
+      "url": "paso-3", 
+      "estado": "error"
+    },
+    {
+      "id": 4,
+      "titulo": "Paso 4",
+      "subtitulo":"subtitulo paso",
+      "url": "paso-4",
+      "estado": "default"
+    }
+  ]
+}
